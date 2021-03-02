@@ -70,16 +70,9 @@
 
 
 @media (max-width:375px) {
-
-  .footer {
-    bottom: 3%;
+  .body, .footer {
+    display: none;
   }
-
-  .footer div section {
-    width: 80%;
-  }
-
-
 }
 
 @media (max-width: 915px ) and (min-width: 744px) {
