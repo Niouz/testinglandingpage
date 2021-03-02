@@ -68,7 +68,7 @@
   text-align: left;
 }
 
-@media (max-width: 920px ) and (min-width: 770px) {
+@media (max-width: 915px ) and (min-width: 770px) {
   .body p {
     font-size: 35px;
     letter-spacing: 2px;
@@ -80,8 +80,15 @@
   }
 }
 
-@media (max-width: 701px) {
-/* 
+@media (max-width: 916px) {
+
+  .footer {
+    bottom: 6%;
+  }
+
+  .footer section {
+    width: 60%;
+  }
   .body p {
     top: 13vh;
     font-size: 30px;
@@ -104,8 +111,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 350px !important;
-    height: 410px;
+    width:none !important;
+    height: none;
   }
-   */
+
 }

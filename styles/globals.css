@@ -19,8 +19,8 @@ html, body {
 }
 
 @media (max-width: 770px) {
-  html, body {
+  /* html, body {
     display: none;
-  }
+  } */
 }
 
