@@ -68,19 +68,43 @@
   text-align: left;
 }
 
-@media (max-width: 915px ) and (min-width: 770px) {
+
+@media (max-width:375px) {
+
+  .footer {
+    bottom: 3%;
+  }
+
+  .footer div section {
+    width: 80%;
+  }
+
+
+}
+
+@media (max-width: 915px ) and (min-width: 744px) {
   .body p {
-    font-size: 35px;
+    font-size: 2.5rem;
     letter-spacing: 2px;
+    position: absolute;
   }
 
   .body nav img {
     top: 48vh;
-
   }
+
+  .img {
+    right: 0%;
+  }
+
+  .footer div aside{
+    float: right;
+    left: 4.5%;
+  }
+  
 }
 
-@media (max-width: 916px) {
+@media (max-width: 745px) {
 
   .footer {
     bottom: 6%;
@@ -116,3 +140,4 @@
   }
 
 }
+
