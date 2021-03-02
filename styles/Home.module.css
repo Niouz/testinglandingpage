@@ -68,12 +68,14 @@
   text-align: left;
 }
 
+@media (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
 
-@media (max-width:375px) {
   .body, .footer {
     display: none;
   }
+
 }
+
 
 @media (max-width: 915px ) and (min-width: 744px) {
   .body p {
@@ -98,7 +100,10 @@
 }
 
 @media (max-width: 745px) {
-
+  .body, .footer {
+    display: none;
+  }
+/* 
   .footer {
     bottom: 6%;
   }
@@ -130,7 +135,7 @@
     margin-right: auto;
     width:none !important;
     height: none;
-  }
+  } */
 
 }
 
