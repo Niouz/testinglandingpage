@@ -73,16 +73,18 @@
     margin: 0 auto -142px;
   } */
 
- 
   .img {
-    width: 100%;
-    height: auto;
+    width: 90% !important;
+    top: 25vh;
+    left: 3vh;
   }
+
   .body img {
     width: 25%;
   }
   .body p {
-    display: none;
+    top: 15vh;
+    font-size: 20px;
   }
 
   .body nav img {
