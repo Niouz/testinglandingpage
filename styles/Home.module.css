@@ -69,12 +69,15 @@
 }
 
 @media (max-width: 600px) {
-  .body {
+  /* .body {
     margin: 0 auto -142px;
-  }
+  } */
 
  
-
+  .img {
+    width: 100%;
+    height: auto;
+  }
   .body img {
     width: 25%;
   }
@@ -85,11 +88,6 @@
   .body nav img {
     display: none;
   }
-
-  .img {
-  display: none;
-  }
-
 
   .footer div aside div {
     margin-right: 0px;
