@@ -84,11 +84,16 @@
   }
   .body p {
     top: 15vh;
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .body nav img {
     display: none;
+  }
+  
+  .footer{
+    position:absolute;
+    bottom: -25%;
   }
 
   .footer div aside div {
