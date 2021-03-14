@@ -84,6 +84,7 @@
   .body img {
     margin-top: 6%;
     width: 25%;
+    
   }
 
   .body p {
@@ -96,6 +97,7 @@
     top: 95vh;
     width: 80%;
     left: -5%;
+    margin-top: 45%;
   }
   
   .footer{
@@ -103,6 +105,10 @@
     bottom: -25% !important;
     padding-bottom: 7% !important;
     margin: 0 auto -142px;
+  }
+
+  .footer div section div, .footer div aside div{
+    width: 15%;
   }
 
   .footer div aside div {
