@@ -17,11 +17,13 @@ html, body {
     background-blend-mode: multiply;
   }
 
-  html, body::before {
+  /* html, body::before {
     position: absolute;
     content: '';
+    z-index: -1;
+
     background:url("https://images.unsplash.com/photo-1444664361762-afba083a4d77?ixid=MXwxMjA3fDB8MHxwaG90[…]ufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80")rgba(0, 0, 0, 0.5);
-  }
+  } */
 }
 
 * {

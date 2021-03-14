@@ -75,10 +75,10 @@
   }
 
   .img {
-    width: 90% !important;
+    width: 100% !important;
     height: 100%;
     top: 25vh;
-    left: 3vh;
+    left: 0%;
   }
 
   .body img {
@@ -88,7 +88,7 @@
 
   .body p {
     top: 15vh;
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .body nav img {
