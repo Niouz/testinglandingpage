@@ -2,6 +2,7 @@
     width: 100%;
     padding: 3% 6% 3% 6%;
 }
+
 .body img {
   width: 12%;
 }
@@ -71,12 +72,11 @@
 @media (max-width: 600px) {
 
   .body {
-    width: 100%;
-    margin: 0 auto -142px;
+    height: auto !important;
+    position: relative;
   }
 
   .img {
-    background: rgba(0, 0, 0, 0.7);
     width: 100% !important;
     height: 100%;
     top: 25vh;
@@ -96,18 +96,11 @@
 
   .body nav img { 
     position: relative;
-    top: 95vh;
+    top: 60vh;
     width: 80%;
     left: -5%;
-    margin-top: 45%;
   }
   
-  .footer{
-    position:absolute;
-    bottom: -25% !important;
-    padding-bottom: 7% !important;
-    margin: 0 auto -142px;
-  }
 
   .footer div section div, .footer div aside div{
     width: 15%;
