@@ -69,10 +69,13 @@
 }
 
 @media (max-width: 600px) {
-  /* .body {
+  .body {
     margin: 0 auto -142px;
-  } */
+  }
 
+  .footer {
+    margin: 0 auto -142px;
+  }
   .img {
     width: 90% !important;
     height: 100%;
