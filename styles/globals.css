@@ -1,22 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,400;1,500&display=swap');
 
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 html, body {
   background:url("https://images.unsplash.com/photo-1444664361762-afba083a4d77?ixid=MXwxMjA3fDB8MHxwaG90[…]ufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80")rgba(0, 0, 0, 0.5);
   background-size:cover;
   background-blend-mode: multiply;
-  background-size: 100% 100%;
 }
+
 @media (max-width: 600px) {
   html, body {
     background: rgba(0, 0, 0, 0.5);
     background-size:cover;
     background-blend-mode: multiply;
   }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
