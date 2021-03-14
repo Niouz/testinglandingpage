@@ -69,13 +69,11 @@
 }
 
 @media (max-width: 600px) {
+
   .body {
     margin: 0 auto -142px;
   }
 
-  .footer {
-    margin: 0 auto -142px;
-  }
   .img {
     width: 90% !important;
     height: 100%;
@@ -86,19 +84,24 @@
   .body img {
     width: 25%;
   }
+
   .body p {
     top: 15vh;
     font-size: 25px;
   }
 
   .body nav img {
-    display: none;
+    position: relative;
+    top: 95vh;
+    width: 80%;
+    left: 10%;
   }
   
   .footer{
     position:absolute;
     bottom: -25% !important;
     padding-bottom: 7% !important;
+    margin: 0 auto -142px;
   }
 
   .footer div aside div {
