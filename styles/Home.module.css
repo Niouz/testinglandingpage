@@ -75,12 +75,13 @@
     height: auto !important;
     position: relative;
   }
-
+  
   .img {
     width: 100% !important;
-    height: 100%;
+    height: auto;
     top: 25vh;
     left: 0%;
+    position: absolute;
   }
 
   .body img {
@@ -96,8 +97,8 @@
 
   .body nav img { 
     position: relative;
-    top: 60vh;
-    width: 80%;
+    top: 65vh;
+    width: 60%;
     left: -5%;
   }
   
