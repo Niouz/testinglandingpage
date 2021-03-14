@@ -76,7 +76,7 @@
   }
 
   .img {
-    background: rgba(0, 0, 0, 0.5);
+    background:url("https://images.unsplash.com/photo-1444664361762-afba083a4d77?ixid=MXwxMjA3fDB8MHxwaG90[…]ufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80")rgba(0, 0, 0, 0.2);
     width: 100% !important;
     height: 100%;
     top: 25vh;
@@ -94,7 +94,7 @@
     font-size: 30px;
   }
 
-  .body nav img {
+  .body nav img { 
     position: relative;
     top: 95vh;
     width: 80%;
