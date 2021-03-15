@@ -126,11 +126,11 @@
     min-height: 100%;
     height: auto !important;
     height: 100%;
-    margin: 0 auto -108%; 
+    
   }
 
   .footer{
-    margin: 0 auto -128%;
+    margin: 0 auto -86%;
   }
 
   .footer div section div, .footer div aside div{
