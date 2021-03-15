@@ -106,17 +106,19 @@
     height: auto;
     top: 5%;
     left: 0%;
-    position: absolute;
-  }
-
-  .footer{
-    bottom:4%;
+    position: ab;
   }
 
   .body img {
     margin-top: 4%;
     width: 25%;
     
+  }
+
+  .footer { display: none; }
+  /* .footer{
+    bottom:4%;
+    display: none;
   }
 
   .footer div section div, .footer div aside div{
@@ -129,7 +131,7 @@
 
   .footer div section div {
     margin-right: 10px ;
-  } 
+  }  */
 }
 
 /* @media (max-width: 915px ) and (min-width: 744px) {
