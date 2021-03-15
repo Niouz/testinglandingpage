@@ -97,14 +97,20 @@
   }
   
 */
-  .body p, .body nav img {
+   .body nav img {
     display: none;
+  }
+
+  .body p {
+    font-size: 30px;
+    top: 12%;
+
   }
 
   .img {
     width: 100% !important;
     height: auto;
-    top: 5%;
+    top: 20%;
     left: 0%;
     position: ab;
   }
@@ -115,13 +121,12 @@
     
   }
 
-  .footer { display: none; }
-  /* .footer{
-    bottom:4%;
+  /* .footer { display: none; } */
+  .footer{
     display: none;
   }
 
-  .footer div section div, .footer div aside div{
+  /* .footer div section div, .footer div aside div{
     width: 15%;
   }
 
