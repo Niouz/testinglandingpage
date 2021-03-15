@@ -98,7 +98,8 @@
   
 */
    .body nav img {
-    display: none;
+    top: 115%;
+    width: 60%;
   }
 
   .body p {
@@ -120,12 +121,16 @@
     
   }
 
-  /* .footer { display: none; } */
+  .body {  min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -108%; }
+
   .footer{
-    display: none;
+    margin: 0 auto -90%;
   }
 
-  /* .footer div section div, .footer div aside div{
+  .footer div section div, .footer div aside div{
     width: 15%;
   }
 
@@ -135,7 +140,7 @@
 
   .footer div section div {
     margin-right: 10px ;
-  }  */
+  } 
 }
 
 /* @media (max-width: 915px ) and (min-width: 744px) {
