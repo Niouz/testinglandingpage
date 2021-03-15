@@ -12,7 +12,7 @@ html {
 @media (max-width: 600px) {
 
   html,body {
-    height: 150%;
+    height: 130%;
     background: url("/");
     background-color: rgba(0, 0, 0, 0.5);
     background-repeat: no-repeat;
