@@ -103,8 +103,9 @@
   }
   .googlePlayMobile img{
     
-    width: 60% !important;
+    width: 70% !important;
     height: 200px;
+    margin-top: -70px;
     margin-bottom: -70px;
   }
   .footer{
