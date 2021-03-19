@@ -75,21 +75,19 @@
   }
 
   .slogan p{
-    margin-top: 30px;
+    margin-top: 50px;
     font-size: 35px;
     letter-spacing: 1px;
     color: #fff;
   }
 
   .googlePlay img{
-   
+   display: none;
   }
 
   .containerr img {
-    margin:0;
-    padding: 0;
-    margin-left: -7%;
-    width: auto !important;
+    margin-top: -15px;
+    width: 100% !important;
     height: auto;
   }
 
