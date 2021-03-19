@@ -2,19 +2,18 @@ import styles from "../styles/Home.module.css";
 
 const Footer = () => {
   return (
-    <footer className={styles.footer}>
-      <div>
-        <section>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </section>
-        <aside>
-          <div></div>
-        </aside>
-      </div>
-    </footer>
+    <main  className={styles.footer}>
+        <div className={styles.leftPoint}>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <div className={styles.rightPoint}>
+            <div></div>
+        </div>
+  </main>
   );
 };
 
