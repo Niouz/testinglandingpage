@@ -63,6 +63,8 @@
   width: 70px;
 }
 
+.googlePlayMobile { display: none;}
+
 @media (max-width: 600px) {
   .main {
     width: 100%;
@@ -79,18 +81,33 @@
     font-size: 35px;
     letter-spacing: 1px;
     color: #fff;
-  }
+  } 
 
-  .googlePlay img{
-   display: none;
+  .googlePlay {
+    display: none;
   }
 
   .containerr img {
-    margin-top: -15px;
+    margin-top: 30% !important;
     width: 100% !important;
     height: auto;
   }
 
+  .googlePlayMobile {
+    display: block; 
+  }
+  
+  .googlePlayMobile {    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  .googlePlayMobile img{
+    
+    width: 60% !important;
+    height: 200px;
+    margin-bottom: -70px;
+  }
   .footer{
     width: 100%;
     display: flex;

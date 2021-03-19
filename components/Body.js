@@ -24,8 +24,14 @@ const Body = ({ title, Logo, interfaceNiouzImage , PlayStoreLink, googlePlayImag
   </div>
 
     <div className={styles.containerr}>
-          <img className={styles.img} src={interfaceNiouzImage} />
+          <img src={interfaceNiouzImage} />
     </div>
+
+    <div className={styles.googlePlayMobile}>
+        <Link href={PlayStoreLink} passHref={true}>
+              <img src={googlePlayImage} alt="Niouz Interface"/>
+        </Link>
+      </div>
       
   </main>
   
