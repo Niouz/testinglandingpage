@@ -88,7 +88,7 @@
   }
 
   .containerr img {
-    width: 100% !important;
+    width: 105% !important;
     height: auto;
   }
 
@@ -101,13 +101,14 @@
     justify-content: center;
     align-items: center; 
   }
+
   .googlePlayMobile img{
-    
     width: 70% !important;
     height: 200px;
     margin-top: -70px;
     margin-bottom: -70px;
   }
+  
   .footer{
     width: 100%;
     display: flex;
