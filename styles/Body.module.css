@@ -58,7 +58,8 @@
     }
 
     .spot p {
-        color:#fff
+        margin: 0;
+        color:#fff;
     }
 
 }
