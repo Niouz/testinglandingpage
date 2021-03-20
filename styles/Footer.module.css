@@ -61,7 +61,7 @@
     }
 
     .download div {
-        margin: -3.5rem 0rem;
+        margin: -3.5rem 0rem -1.5rem;
         display: flex;
     }
 
@@ -72,7 +72,7 @@
 
     .copyright {
         /* font-size: 15px; */
-        /* margin-top: -10px; */
+        margin-top: 10px;
     }
 
 }
