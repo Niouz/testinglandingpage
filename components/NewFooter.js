@@ -19,11 +19,8 @@ const NewFooter = ( {logo, appStore, playStore, facebook, twitter, instagram} ) 
             </div>
 
             <div className={styles.download}>
-                <p> Download </p>
-                    <div>
-                        <img src={appStore} />
-                        <img src={playStore} /> 
-                    </div>
+                <img src={appStore} />
+                <img src={playStore} /> 
             </div>
 
             <div className={styles.copyright}>
