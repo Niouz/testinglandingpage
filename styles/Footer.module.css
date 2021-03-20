@@ -32,15 +32,15 @@
     }
     .media a {
         text-align: center;
-        font-size: 40px;
-        background-color: #fff;
+        font-size: 30px;
+        /* background-color: #fff; */
         margin: 2px;
         border-radius: 5px; 
         cursor: pointer;
     }
 
     .media a i {
-        width: 55px;
+        width: 45px;
     }
 
     .media a { color: blue; }
@@ -53,11 +53,6 @@
         padding: 0.5rem 0rem;
         display: flex;
         flex-direction: column;
-        /* justify-content: center; */
-        /* margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: flex-start; */
     }
 
     .download div {
@@ -70,7 +65,6 @@
     }
 
     .copyright {
-        /* font-size: 15px; */
         margin-top: 15px;
         margin-bottom: -35px;
     }
