@@ -50,7 +50,7 @@
     }
 
     .download {
-        padding: 1.5rem 0rem;
+        padding: 0.5rem 0rem;
         display: flex;
         flex-direction: column;
         /* justify-content: center; */
@@ -61,6 +61,7 @@
     }
 
     .download div {
+        margin: -1.5rem 0rem;
         display: flex;
     }
 
