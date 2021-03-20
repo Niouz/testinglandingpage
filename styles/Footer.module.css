@@ -14,7 +14,7 @@
       height: 0 auto;
       background-image: linear-gradient(to bottom, #64312f, #582624);
       color: #fff;
-      margin-top: 100% !important;
+      /* margin-top: 100% !important; */
     }
 
     .logo img {
