@@ -50,7 +50,7 @@
     }
 
     .download {
-        padding: 3rem 1.5rem;
+        padding: 1.5rem 0rem;
         display: flex;
         flex-direction: column;
         /* justify-content: center; */
@@ -63,10 +63,10 @@
     .download div {
         display: flex;
     }
-    
+
     .download img {
         display: flex;
-        width: 120px;
+        width: 150px;
     }
 
     .copyright {
