@@ -14,7 +14,9 @@ const Layout = () => (
       PlayStoreLink="https://niouzapp.com/"
     />
     <Footer />
-      <NewFooter logo = "hero-logo.png" 
+      <NewFooter 
+      logo = "hero-logo.png" 
+      googleLink = "https://niouzapp.com"
       playStore="google-play-icon.png" 
      />
   </>

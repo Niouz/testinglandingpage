@@ -1,6 +1,6 @@
 import styles from "../styles/Footer.module.css";
 
-const NewFooter = ( {logo, playStore, facebook, twitter, instagram} ) => {
+const NewFooter = ( {logo, googleLink, playStore, facebook, twitter, instagram} ) => {
 
     return(
         
@@ -13,7 +13,7 @@ const NewFooter = ( {logo, playStore, facebook, twitter, instagram} ) => {
 
             <div className={styles.download}>
                     <div>
-                    <a><img src={playStore} /></a>   
+                    <a href={googleLink}><img src={playStore} /></a>   
                     </div>
             </div>
 
