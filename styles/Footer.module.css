@@ -66,12 +66,12 @@
     }
 
     .download img {
-        display: flex;
         width: 150px;
     }
 
     .copyright {
         /* font-size: 15px; */
+        margin-top: 15px;
         margin-bottom: -35px;
     }
 
