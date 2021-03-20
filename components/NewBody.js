@@ -1,6 +1,6 @@
 import styles from "../styles/Body.module.css";
 
-const NewBody = ( {logo }) => {
+const NewBody = ( { logo, interfaceNiouzImage }) => {
 
     return(
        <div className={styles.container}>
@@ -11,6 +11,14 @@ const NewBody = ( {logo }) => {
                </div>
                <p>Democratizing news for all <strong>Haitians.</strong></p>
            </div>
+
+           <div className={styles.spot}>
+               <h3>Spot on news happening in the streets </h3>
+               <p>Get all the news on your area and engage in those that matter to you. </p>
+               <img src={interfaceNiouzImage} />
+           </div>
+
+           
        </div>
     );
 }

@@ -17,6 +17,7 @@ const Layout = () => (
     <Footer />
       <NewBody 
         logo="logo.png"
+        interfaceNiouzImage="Dark.png"
       />
       <NewFooter 
       logo = "hero-logo.png" 
