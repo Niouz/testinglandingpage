@@ -1,9 +1,10 @@
 import Header from "./Header";
 import Body from "./Body";
 import Footer from "./Footer";
+import NewFooter from "./NewFooter";
 
 const Layout = () => (
-  <div>
+  <>
     <Header title="Niouz | Haitians App" logoSrc="hero-logo.png" />
     <Body
       title="Niouz Logo"
@@ -13,7 +14,8 @@ const Layout = () => (
       PlayStoreLink="https://niouzapp.com/"
     />
     <Footer />
-  </div>
+     <NewFooter logo = "hero-logo.png" appStore="google-play-icon.png" playStore="google-play-icon.png" />
+  </>
 );
 
 export default Layout;
