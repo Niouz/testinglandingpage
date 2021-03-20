@@ -2,6 +2,7 @@ import Header from "./Header";
 import Body from "./Body";
 import Footer from "./Footer";
 import NewFooter from "./NewFooter";
+import NewBody from "./NewBody";
 
 const Layout = () => (
   <>
@@ -14,6 +15,9 @@ const Layout = () => (
       PlayStoreLink="https://niouzapp.com/"
     />
     <Footer />
+      <NewBody 
+        logo="logo.png"
+      />
       <NewFooter 
       logo = "hero-logo.png" 
       googleLink = "https://niouzapp.com"

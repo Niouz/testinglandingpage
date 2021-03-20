@@ -1,0 +1,43 @@
+
+.container {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .container { display: block; }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1rem 1.5rem;
+        width: 100%;
+        background-image: linear-gradient(to bottom, #64312f, #582624);
+    }
+
+    .header hr { width: 100%; color: #fff; }
+    .header p {
+        text-align: center;
+        color: #fff;
+        font-size: 25px;
+    }
+    .header div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header img {
+        width: 100px;
+    }
+
+    .header span {
+        font-size: 20px;
+        color: #fff;
+        cursor: pointer;
+    }
+}
