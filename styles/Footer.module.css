@@ -33,7 +33,7 @@
     .media a {
         text-align: center;
         font-size: 30px;
-        /* background-color: #fff; */
+        background-color: #a8b9d7;
         margin: 2px;
         border-radius: 5px; 
         cursor: pointer;
@@ -43,10 +43,22 @@
         width: 45px;
     }
 
-    .media a { color: blue; }
+    .media a { color: ; }
 
+    .media a:nth-last-of-type(3) {
+        color: #2985cd;
+    }
+
+    .media a:nth-last-of-type(4) {
+        color: #1462cf;
+    }
+
+    .media a:nth-last-of-type(2) {
+        color: #0162a0;
+    }
     .media a:last-child {
-        color: red;
+        background-color: #c9b1c0;
+        color: #bb5572;
     }
 
     .download {
