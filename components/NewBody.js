@@ -9,7 +9,6 @@ const NewBody = ( {logo }) => {
                     <img src={logo} alt="nioz Logo" />
                     <span>&#9776;</span>
                </div>
-               <hr></hr>
                <p>Democratizing news for all <strong>Haitians.</strong></p>
            </div>
        </div>
