@@ -23,7 +23,7 @@ body {
 
   html,body {
     height: auto !important;
-
+    background: url("");
     /* background-repeat: no-repeat;
     background-size: 100%; */
   }

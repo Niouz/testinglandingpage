@@ -63,9 +63,13 @@
   width: 70px;
 }
 
+
 .googlePlayMobile { display: none;}
 
 @media (max-width: 600px) {
+  .footer { display: none; }
+  .main { display: none; }
+
   .main {
     width: 100%;
     padding: 1rem 0.5rem;
@@ -109,7 +113,7 @@
     margin-bottom: -70px;
   }
   
-  .footer{
+  /* .footer{
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -129,6 +133,8 @@
   }
   .rightPoint div {
     width: 40px;
-  }
+  } */
 
+
+  /* feature */
 }
