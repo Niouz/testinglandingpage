@@ -21,7 +21,6 @@ const NewFooter = ( {logo, googleLink, playStore, facebook, twitter, instagram} 
                     <a><i className="fab fa-facebook"></i></a>
                     <a><i className="fab fa-twitter"></i></a>
                     <a><i className="fab fa-linkedin"></i></a>  
-                    <a><i className="fab fa-instagram"></i></a>
             </div>
             
             <div className={styles.copyright}>
