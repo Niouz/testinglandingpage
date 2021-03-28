@@ -49,6 +49,9 @@
 
 @media (max-width: 600px) {
 
+    .header img {
+        width: 70px;
+    }
     .postTitle h2 {
         font-size: 20px;
         padding: 0rem 0rem;
