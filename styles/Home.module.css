@@ -3,7 +3,7 @@
 .bg {
   padding: 0;
   margin: 0;
-  background:url("https://images.unsplash.com/photo-1444664361762-afba083a4d77?ixid=MXwxMjA3fDB8MHxwaG90[…]ufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80")rgba(0, 0, 0, 0.5);
+  background:url("../public/bg.webp")rgba(0, 0, 0, 0.5);
   background-size:cover;
   background-blend-mode: multiply;
 }
