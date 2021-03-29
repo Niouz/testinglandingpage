@@ -3,24 +3,23 @@ import NewFooter from "./NewFooter";
 
 const Post = ( { title, body, photo, source } ) => {
     return(
-        <main className={styles.container}>
+        <main className="">
 
-            <header className={styles.header}> 
-                <img src = "./logo.png" /> 
+            <header className="flex bg-secondary-100 p-4 py-4 w-full"> 
+                <img className="w-28" src = "./logo.png" /> 
             </header>
 
-            <div className={styles.postPhoto}>
-                <img src ="./image.jpg" />
+            <div className="flex z-10">
+                <img className="w-full" src ="./image.jpg" />
             </div>
 
-            <div className={styles.postTitle}>
-                <h2>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+            <div className=" w-full h-28  bg-secondary-100 flex justify-center z-40">
+                <h2 className="text-primary sm:text-xl p-2 py-8">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</h2>
-                {/* <h2>{title}</h2> */}
             </div>
 
-            <div className={styles.postBody}>
-                <p>
+            <div className="w-full p-16 py-16 sm:p-40 sm:py-16 lg:-20 lg:py-24 text-justify">
+                <p className="">
                 is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled 
  it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
@@ -69,9 +68,7 @@ const Post = ( { title, body, photo, source } ) => {
    sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
 
                 </p>
-                <p>Source</p>
-                {/* <p>{body}</p> */}
-                <p>{source}</p>
+                <p className=" flex justify-end mt-4">Source</p>
             </div>
             
             <NewFooter 

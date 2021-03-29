@@ -3,9 +3,10 @@ import Body from "./Body";
 import Footer from "./Footer";
 import NewFooter from "./NewFooter";
 import NewBody from "./NewBody";
+import styles from "../styles/Home.module.css";
 
 const Layout = () => (
-  <>
+  <div className={styles.bg}>
     <Header title="Niouz | Haitians App" logoSrc="hero-logo.png" />
     <Body
       title="Niouz Logo"
@@ -14,7 +15,6 @@ const Layout = () => (
       googlePlayImage="google-play-icon.png"
       PlayStoreLink="https://niouzapp.com/"
     />
-    <Footer />
       <NewBody 
         logo="logo.png"
         interfaceNiouzImage="Dark.png"
@@ -24,7 +24,8 @@ const Layout = () => (
       googleLink = "https://niouzapp.com"
       playStore="google-play-icon.png" 
      />
-  </>
+     {/* <Footer /> */}
+  </div>
 );
 
 export default Layout;

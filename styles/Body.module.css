@@ -17,7 +17,7 @@
         justify-content: space-between;
         padding: 1rem 1.5rem;
         width: 100%;
-        background-image: linear-gradient(to bottom, #64312f, #582624);
+        background-image: linear-gradient(to bottom , #2A3B43, #396d85);
     }
 
     .header hr { width: 100%; color: #fff; }
