@@ -7,4 +7,3 @@ const client = new ApolloClient({
 
 export default client;
 
-// 29545d92-4226-4a37-86c7-c1772cbbc5cd
