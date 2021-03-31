@@ -27,7 +27,6 @@
 .postTitle {
     padding: 0.5rem 2rem;
     width: 100%;
-    height: 120px;
     margin-top: -120px;
     background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)); 
     display: flex;

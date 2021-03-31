@@ -7,7 +7,7 @@ import styles from "../styles/Home.module.css";
 
 const Layout = () => (
   <div className={styles.bg}>
-    <Header title="Niouz | Haitians App" logoSrc="hero-logo.png" />
+    <Header/>
     <Body
       title="Niouz Logo"
       Logo="logo.png"

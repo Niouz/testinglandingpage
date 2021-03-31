@@ -1,21 +1,23 @@
-import styles from "../styles/Post.module.css";
+import Header from "./Header";
 import NewFooter from "./NewFooter";
 
 const Post = ( { title, body, photo, source } ) => {
     return(
         <main className="">
-
+            <Header />
+            
             <header className="flex bg-secondary-100 px-2 py-4 w-full h-16"> 
                 <img className="w-20 " src = "./logo.png" /> 
             </header>
 
-            <div className="flex">
-                <img className="w-full" src ="./image.jpg" />
+            <div className="flex z-0">
+                <img className=" w-full" src ="./image.jpg" />
             </div>
 
-            <div className=" w-full bg-secondary-100 md:text-lg flex" >
+            <div className=" w-full md:text-lg flex bg-secondary-100 " >
                 <h2 className="text-primary text-center sm:text-xl md:p-4 p-4">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
- standard dummy text ever since the 1500s</h2>
+                    standard dummy text ever since the 1500s
+                 </h2>
             </div>
 
             <div className="w-full lg:p-20 md:p-12 p-8  text-justify">
