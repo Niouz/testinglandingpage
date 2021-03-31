@@ -11,7 +11,7 @@ const Post = ( { title, body, photo, source } ) => {
             </header>
 
             <div className="flex z-0">
-                <img className=" object-cover h-48 w-full " src ="./image.jpg" />
+                <img className=" object-fill h-52 w-full " src ="./image.jpg" />
             </div>
 
             <div className=" w-full md:text-lg flex bg-secondary-100 " >
