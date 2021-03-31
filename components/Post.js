@@ -9,13 +9,13 @@ const Post = ( { title, body, photo, source } ) => {
                 <img className="w-20 " src = "./logo.png" /> 
             </header>
 
-            <div className="flex z-10">
+            <div className="flex">
                 <img className="w-full" src ="./image.jpg" />
             </div>
 
-            <div className=" w-full h-28 bg-secondary-100 md:text-lg flex" >
-                <h2 className="text-primary text-center sm:text-xl text-sm md:p-4 p-2">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
- standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</h2>
+            <div className=" w-full bg-secondary-100 md:text-lg flex" >
+                <h2 className="text-primary text-center sm:text-xl md:p-4 p-4">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+ standard dummy text ever since the 1500s</h2>
             </div>
 
             <div className="w-full lg:p-20 md:p-12 p-8  text-justify">
