@@ -13,12 +13,12 @@ const Post = ( { title, body, photo, source } ) => {
                 <img className="w-full" src ="./image.jpg" />
             </div>
 
-            <div className=" w-full h-28  bg-secondary-100 flex justify-center z-40">
+            <div className=" w-full h-28 bg-secondary-100 flex justify-center z-40" >
                 <h2 className="text-primary sm:text-xl p-2 py-8">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</h2>
             </div>
 
-            <div className="w-full p-16 py-16 sm:p-40 sm:py-16 lg:-20 lg:py-24 text-justify">
+            <div className="w-full lg:p-20 md:p-12 p-8  text-justify">
                 <p className="">
                 is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled 
@@ -50,22 +50,7 @@ const Post = ( { title, body, photo, source } ) => {
   typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
    sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
    including versions of Lorem Ipsum   
-   is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
- standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled 
- it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-  typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-   sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
-   is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
- standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled 
- it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-  typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-   sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
-   including versions of Lorem Ipsum   
-   is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
- standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled 
- it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-  typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-   sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
+
 
                 </p>
                 <p className=" flex justify-end mt-4">Source</p>
