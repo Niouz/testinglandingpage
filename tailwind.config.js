@@ -10,6 +10,9 @@ module.exports = {
           200: '#345cd1'
         }
       },
+      spacing: {
+        88: '22.5rem',
+      },
       fontFamily: {
         body: ['Montserrat'],
       },

@@ -11,7 +11,7 @@ const Post = ( { title, body, photo, source } ) => {
             </header>
 
             <div className="flex z-0">
-                <img className=" object-fill lg:h-auto md:h-auto h-80 w-full " src ="./image.jpg" />
+                <img className=" object-fill lg:h-auto md:h-auto h-88 w-full " src ="./image.jpg" />
             </div>
 
             <div className=" w-full md:text-lg flex bg-secondary-100 " >
@@ -39,21 +39,7 @@ const Post = ( { title, body, photo, source } ) => {
  it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
   typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
    sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
-   including versions of Lorem Ipsum   
-   is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
- standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled 
- it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-  typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-   sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
-   including versions of Lorem Ipsum   
-   is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
- standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled 
- it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-  typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-   sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
-   including versions of Lorem Ipsum   
-
-
+   including versions of Lorem Ipsum    
                 </p>
                 <p className=" flex justify-end mt-4">Source</p>
             </div>
