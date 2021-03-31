@@ -13,8 +13,8 @@ const Post = ( { title, body, photo, source } ) => {
                 <img className="w-full" src ="./image.jpg" />
             </div>
 
-            <div className=" w-full h-28 bg-secondary-100 md:text-lg flex justify-center z-40" >
-                <h2 className="text-primary sm:text-xl px-2 p-2 py-8">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+            <div className=" w-full h-28 bg-secondary-100 md:text-lg flex" >
+                <h2 className="text-primary text-center sm:text-xl md:p-4 p-2">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</h2>
             </div>
 
