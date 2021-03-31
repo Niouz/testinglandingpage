@@ -10,12 +10,19 @@ const Post = ( { title, body, photo, source } ) => {
                 <img className="w-20 " src = "./logo.png" /> 
             </header>
 
-            <div className="flex z-0">
+            <div className="shadow-md relative">
                 <img className=" object-fill lg:h-auto md:h-auto h-88 w-full " src ="./image.jpg" />
+
+                <div className="bg-secondary-100 text-secondary-200 text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2">
+                    <svg className="w-4 text-primary inline-block" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" 
+                    xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" 
+                    stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    <span className="text-primary"> 5 Mins ago</span>
+                </div>
             </div>
 
             <div className=" w-full md:text-lg flex bg-secondary-100 " >
-                <h2 className="text-primary text-center sm:text-xl md:p-4 p-4">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                <h2 className="text-primary text-center font-bold sm:text-xl md:p-4 p-4 ">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
                     standard dummy text ever since the 1500s
                  </h2>
             </div>
