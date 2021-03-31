@@ -5,8 +5,8 @@ const Post = ( { title, body, photo, source } ) => {
     return(
         <main className="">
 
-            <header className="flex bg-secondary-100 px-2 py-4 w-full"> 
-                <img className="w-20" src = "./logo.png" /> 
+            <header className="flex bg-secondary-100 px-2 py-4 w-full h-16"> 
+                <img className="w-20 " src = "./logo.png" /> 
             </header>
 
             <div className="flex z-10">
@@ -14,7 +14,7 @@ const Post = ( { title, body, photo, source } ) => {
             </div>
 
             <div className=" w-full h-28 bg-secondary-100 md:text-lg flex justify-center z-40" >
-                <h2 className="text-primary sm:text-xl p-2 py-8">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                <h2 className="text-primary sm:text-xl px-2 p-2 py-8">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</h2>
             </div>
 
