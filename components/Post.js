@@ -23,7 +23,7 @@ const Post = ( { title, body, photo, source } ) => {
             </div>
 
             <div tw=" w-full md:text-lg flex bg-secondary-100 " >
-                <h2 tw="text-primary text-center font-bold sm:text-xl md:p-4 p-4 ">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                <h2 tw="text-primary text-center font-bold sm:text-xl p-4 ">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
                     standard dummy text ever since the 1500s
                  </h2>
             </div>
