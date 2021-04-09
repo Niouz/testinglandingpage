@@ -1,10 +1,34 @@
 import tw from 'twin.macro';
 
+import React, {useEffect} from "react";
 import Header from "./Header";
 import NewFooter from "./NewFooter";
 
-
 const Post = ( { title, body, photo, source } ) => {
+
+    useEffect(() => {
+        var aScript = document.createElement('script');
+         aScript.type = 'text/javascript';
+         aScript.src = " https://js.stripe.com/v3/";
+  
+         document.head.appendChild(aScript);
+         aScript.onload = () => {
+            
+            let paragraph = document.querySelector("#paragraph");
+            const paragraphToArray = paragraph.textContent.split(" ");
+
+            let newPara = [];
+            paragraphToArray.map( (data) => {
+                data = data.replace(".", ".<br /><br />");
+                newPara.push(data);
+            });
+            
+            newPara = newPara.join(' ');
+            paragraph.innerHTML = newPara;
+
+         };
+      }, [])
+
     return(
         <main tw="">
             <Header />
@@ -28,26 +52,38 @@ const Post = ( { title, body, photo, source } ) => {
                  </h2>
             </div>
 
-            <div tw="max-w-max mx-auto p-8 w-full text-left md:p-12">
-                <p tw="">
-                is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+            <div tw="max-w-max mx-auto p-8 md:max-w-4xl w-full text-justify md:p-12">
+                <p id="paragraph" >
+                is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's 
  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled 
- it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-  typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+ it to make a type specimen book It has survived not only five centuries, but also the leap into electronic
+  typesetting, remaining essentially unchanged It was popularised in the 1960s with the release of Letraset
    sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
-   including versions of Lorem Ipsum    
-   is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+   including versions of Lorem Ipsum. 
+   is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's 
  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled 
- it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-  typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+ it to make a type specimen book It has survived not only five centuries, but also the leap into electronic
+  typesetting, remaining essentially unchanged It was popularised in the 1960s with the release of Letraset
    sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
-   including versions of Lorem Ipsum   
-   is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+   including versions of Lorem Ipsum. 
+   is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's 
  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled 
- it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-  typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+ it to make a type specimen book It has survived not only five centuries, but also the leap into electronic
+  typesetting, remaining essentially unchanged It was popularised in the 1960s with the release of Letraset
    sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
-   including versions of Lorem Ipsum    
+   including versions of Lorem Ipsum. 
+   is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's 
+ standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled 
+ it to make a type specimen book It has survived not only five centuries, but also the leap into electronic
+  typesetting, remaining essentially unchanged It was popularised in the 1960s with the release of Letraset
+   sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
+   including versions of Lorem Ipsum. 
+   is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's 
+ standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled 
+ it to make a type specimen book It has survived not only five centuries, but also the leap into electronic
+  typesetting, remaining essentially unchanged It was popularised in the 1960s with the release of Letraset
+   sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
+   including versions of Lorem Ipsum. 
                 </p>
                 <p tw=" flex justify-end mt-4">Source</p>
             </div>
@@ -62,12 +98,3 @@ const Post = ( { title, body, photo, source } ) => {
 }
 
 export default Post;
-
-{/*
- is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
- standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled 
- it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
-  typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-   sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
-   including versions of Lorem Ipsum    
-*/}
