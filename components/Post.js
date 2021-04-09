@@ -27,7 +27,7 @@ const Post = ( { title, body, photo, source } ) => {
             paragraph.innerHTML = newPara;
 
          };
-      }, [])
+      }, []);
 
     return(
         <main tw="">
