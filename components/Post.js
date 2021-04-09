@@ -9,12 +9,12 @@ const Post = ( { title, body, photo, source } ) => {
         <main tw="">
             <Header />
             
-            <header tw="flex bg-secondary-100 px-2 py-4 w-full h-16"> 
-                <img tw="w-20 " src = "./logo.png" /> 
+            <header tw="flex bg-secondary-100 px-2 py-4 w-full h-14"> 
+                <img tw="w-20" src = "./logo.png" /> 
             </header>
 
             <div tw="shadow-md relative">
-                <img tw=" object-fill lg:h-auto md:h-auto h-88 w-full " src ="./image.jpg" />
+                <img tw=" object-fill md:h-full h-88 w-full " src ="./image.jpg" />
 
                 <div tw="bg-secondary-100 text-secondary-200 text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2">
                 <svg tw="w-4 text-primary inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
@@ -28,7 +28,7 @@ const Post = ( { title, body, photo, source } ) => {
                  </h2>
             </div>
 
-            <div tw="w-full lg:p-20 md:p-12 p-8  text-justify">
+            <div tw="max-w-max mx-auto p-8 w-full text-left md:p-12">
                 <p tw="">
                 is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled 
@@ -55,7 +55,7 @@ const Post = ( { title, body, photo, source } ) => {
             <NewFooter 
                 logo = "hero-logo.png" 
                 googleLink = "https://niouzapp.com"
-                playStore="google-play-icon.png" 
+                playStore = "google-play-icon.png" 
             />
         </main>
     );
