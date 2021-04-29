@@ -2,43 +2,47 @@ import Post from "../components/Post";
 import client from "../apollo-client";
 import { gql } from "@apollo/client";
 
-//fe82498b-eccc-4fd5-a32b-06b70aba6a8f
-// const query = gql`
-//     query{
-//         posts{
-//             title
-//             body
-//             photo
-//             source
-//         }
-//     }
-// `;
+//624177e3-b563-4742-8a36-17a10b70ba4f
+const query = gql`
+    query {
+        post(id: "7f21914c-d2dd-4473-8ff3-ec0627b24edc") {
+        id
+        title
+        body
+        photo
+        source
+        createdAt
+        }
+    }
+`;
 
-// export async function getServerSideProps() {
-//     const { data } = await client.query({
-//         query 
-//     });
+export async function getServerSideProps() {
+    const { data } = await client.query({
+        query
+    });
 
-//     console.log(data);
-//     return{
-//         props: {
-//             post: data.posts
-//         }
-//     }
-// }
+    return {
+        props: {
+            onepost: data.post
+        }
+    }
+}
 
-export default function PostData({ post }) {
+export default function PostData( {onepost} ) {
     return(
         <>
-        <Post />
-          {/* {post.map((post) => (
-               <Post
-                title = {post.title}
-                photo = {post.photo || "./default.png"}
-                body = {post.body}
-                source= {post.source }
-               />
-            ))} */}
+            {
+               onepost = [onepost],
+               onepost.map( data => (
+                   <Post 
+                    title = { data.title }
+                    body = { data.body }
+                    postDate = { data.createdAt }
+                    photo = { data.photo || "./image.jpg"}
+                    source = { data.source }
+                   />
+               ))
+            }
         </>
     );
 }
