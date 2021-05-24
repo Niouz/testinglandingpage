@@ -1,32 +1,25 @@
 import tw from 'twin.macro';
-
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import Header from "./Header";
 import NewFooter from "./NewFooter";
 
 const Post = ( { title, body, photo, source, postDate } ) => {
 
     useEffect(() => {
-        var aScript = document.createElement('script');
-         aScript.type = 'text/javascript';
-         aScript.src = " https://js.stripe.com/v3/";
-  
-         document.head.appendChild(aScript);
-         aScript.onload = () => {
-            
-            let paragraph = document.querySelector("#paragraph");
-            const paragraphToArray = paragraph.textContent.split(" ");
+      
+        let bodyText = document.querySelector("#text");
+        const paragraphToArray = bodyText.textContent.split(" ");
 
             let newPara = [];
             paragraphToArray.map( (data) => {
-                data = data.replace(".", ".<br /><br />");
+              
+                data = data.replace(".", ".<br />");
                 newPara.push(data);
             });
             
             newPara = newPara.join(' ');
-            paragraph.innerHTML = newPara;
+            bodyText.innerHTML = newPara;
 
-         };
       }, []);
 
     return(
@@ -51,7 +44,7 @@ const Post = ( { title, body, photo, source, postDate } ) => {
             </div>
 
             <div tw="max-w-max mx-auto p-8 md:max-w-4xl w-full text-justify md:p-12">
-                <p id="paragraph" > {body} </p>
+                <p id="text" > {body} </p>
                 <p tw=" flex justify-end mt-4">{source}</p>
             </div>
             
